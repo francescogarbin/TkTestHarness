@@ -78,7 +78,7 @@ class AppicationFrame(ttk.Frame):
 
 
 def main():
-    logging.basicConfig(level='DEBUG', filename='guipython.log', filemode='w', format='%(name)s - %(levelname)s - %(message)s')
+    logging.basicConfig(level='DEBUG', filename='../guipython.log', filemode='w', format='%(name)s - %(levelname)s - %(message)s')
     logging.info("starting...")
     root = Tk()
     root.style = ttk.Style()
