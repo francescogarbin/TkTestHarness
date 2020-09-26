@@ -85,7 +85,7 @@ def main():
     root.style.theme_use("clam")
     root.style.configure("My.TFrame", background='grey99')
     root.style.configure("My.TLabel", background='grey99')
-    root.title("Feet to Meters")
+    root.title("TkTestHarness")
     root.columnconfigure(0, weight=1)
     root.rowconfigure(0, weight=1)
     AppicationFrame(root, "My.TFrame")
